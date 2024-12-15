@@ -1,0 +1,94 @@
+/* Red Hat Text fonts */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+.red-hat-text {
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .theme__toggle-btn, .theme__plain-btn {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* -------------Landing page ---------------- */
+  
+  .container {
+    margin-left: 40px;
+  }
+  
+  .form-container {
+    position: relative;
+  }
+  
+  .nav-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+  }
+  
+  .left-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .right-container {
+    /* padding: 100px; */
+  }
+  
+  .logo-img {
+  width: 559px;
+  }
+  
+  .side-img {
+  width: 889.66px;
+  }
+  
+  .btnContainer {
+    width: 392px;
+    height: 180px;
+  }
+  .left-container button:nth-child(1), .left-container button:nth-child(2) {
+    width: 352px;
+    height: 60px;
+    margin-bottom: 20px;
+    border: 1px solid #FE9E12;
+    border-radius: 5px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .left-container button:nth-child(1) {
+    color: var(--text-color-white);
+    font-weight: 500;
+    background-color: #FFB241;
+  }
+  .left-container button:nth-child(1):hover {
+    background-color: #FE9E12;
+  }
+  
+  .left-container button:nth-child(2) {
+    color: var(--main-color);
+  }
+  
+  .bottom-text {
+    color: #121744;
+    position: absolute;
+    bottom: 5px;
+  
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  
+  }
+  .bottom-text span {
+  
+    color: #FE9E12;
+  }
+  
