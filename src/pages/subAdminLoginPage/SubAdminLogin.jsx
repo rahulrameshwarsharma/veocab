@@ -1,11 +1,10 @@
 import React from 'react';
-import '../../index.css';
-import './login.css';
 import { Link } from 'react-router-dom';
+
 import adminLoginImage from '../../assets/images/adminLogin.png';
 import logo from '../../assets/images/logo.png';
 
-const Login = () => {
+const SubAdminLogin = () => {
   return (
     <div className="wrapper">
       <div className="cover cover-left">
@@ -13,7 +12,7 @@ const Login = () => {
           <div className="login-wrapper">
 
             <div className='login-text-container'>
-              <span>Login</span>
+              <span>Sub admin login</span>
               <span>Login to access your account</span>
             </div>
             <div className='login-input-container'>
@@ -63,4 +62,4 @@ const Login = () => {
   )
 }
 
-export default Login;
+export default SubAdminLogin

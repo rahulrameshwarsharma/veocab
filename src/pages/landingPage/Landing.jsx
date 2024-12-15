@@ -7,7 +7,7 @@ import './landing.css';
 
 const Landing = () => {
   return (
-    <div className="container form-container">
+    <div className="landing-container form-container">
       <img className='logo-img' src={logo} alt="" />
 
       <div className="nav-tab">

@@ -10,7 +10,7 @@ import DashboardRoute from "./routes/DashboardRoute";
 import UserList from "./pages/UserList";
 import {Dashboard} from "./pages/Dashboard";
 import AdminLogin from "./pages/AdminLogin";
-import SubAdminLogin from "./pages/SubAdminLogin";
+import SubAdminLogin from "./pages/subAdminLoginPage/SubAdminLogin.jsx";
 import ForgetPassword from "./pages/ForgetPassword";
 import VerifyPassword from "./pages/VerifyPassword";
 import Login from "./pages/loginPage/Login.jsx";

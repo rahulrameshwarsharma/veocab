@@ -14,9 +14,9 @@
   }
   
   /* -------------Landing page ---------------- */
-  
-  .container {
-    margin-left: 40px;
+
+  .landing-container {
+    padding: 50px 50px 0;
   }
   
   .form-container {
@@ -26,7 +26,6 @@
   .nav-tab {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
   }
   
   .left-container {
@@ -76,7 +75,8 @@
   .bottom-text {
     color: #121744;
     position: absolute;
-    bottom: 5px;
+    white-space: nowrap;
+    bottom: 0px;
   
     font-size: 40px;
     font-weight: 700;
