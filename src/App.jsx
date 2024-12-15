@@ -3,9 +3,12 @@ import AuthRoute from "./routes/AuthRoute";
 import ErrorPage from "./pages/ErrorPage";
 import Landing from "./pages/landingPage/Landing.jsx";
 
+import './styles/globalStyles.css'
+
+
 import DashboardRoute from "./routes/DashboardRoute";
 import UserList from "./pages/UserList";
-import Dashboard from "./pages/Dashboard";
+import {Dashboard} from "./pages/Dashboard";
 import AdminLogin from "./pages/AdminLogin";
 import SubAdminLogin from "./pages/SubAdminLogin";
 import ForgetPassword from "./pages/ForgetPassword";
